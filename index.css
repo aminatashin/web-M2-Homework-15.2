@@ -19,7 +19,9 @@ main > div > div > div:last-of-type {
 aside > div:nth-last-of-type(2) > .list-unstyled {
   background-color: aqua;
 }
-
+p:last-of-type a {
+  background-color: aqua;
+}
 .blog-footer {
   border: 2px solid yellow;
 }
