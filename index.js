@@ -30,3 +30,15 @@ for (index= 0; index < searchIcon.length; index++) {
 }
 }
 removeSearch()
+
+const trimPar = function () {
+    const pars = document.querySelectorAll(".blog-post p:nth-child(3)")
+    console.log(pars)
+    for (let i = 0; i < pars.length; i++) {
+      const subStr = pars[i].innerText.slice(50)
+      console.log(subStr)
+      pars[i].innerText = subStr
+        
+    }
+}
+trimPar()
