@@ -1,6 +1,6 @@
-/* .jumbotron h1 {
+.jumbotron h1 {
   background-color: blueviolet;
-} */
+}
 .nav-scroller > nav > a {
   border: 2px solid rgb(166, 211, 156);
 }
@@ -10,12 +10,16 @@
 main > div > div > div:first-of-type {
   border: 2px solid blue;
 }
+nav:nth-last-of-type(even) {
+  background-color: brown;
+}
 main > div > div > div:last-of-type {
   border: 2px solid rgb(255, 208, 0);
 }
 aside > div:nth-last-of-type(2) > .list-unstyled {
   background-color: aqua;
 }
+
 .blog-footer {
   border: 2px solid yellow;
 }
